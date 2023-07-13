@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background_title_dialog"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Thêm Công Việc"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edttile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/khung_input_login"
+        android:hint="Tên khóa học"
+        android:paddingHorizontal="15dp" />
+
+    <EditText
+        android:id="@+id/edtcontent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/khung_input_login"
+        android:hint="Nội Dung"
+        android:paddingHorizontal="15dp" />
+
+    <EditText
+        android:id="@+id/edtdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/khung_input_login"
+        android:hint="Ngày"
+        android:paddingHorizontal="15dp" />
+
+    <EditText
+        android:id="@+id/edttype"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/khung_input_login"
+        android:hint="Loại"
+        android:inputType="none"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:paddingHorizontal="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/button_login"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/button_login"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+    <!--    </LinearLayout>-->
+</LinearLayout>
